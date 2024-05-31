@@ -1,0 +1,42 @@
+﻿  Calculate.cpp
+C:\Users\Роман\Desktop\tg\tgbot\Calculate.cpp(11,26): warning C4305: =: усечение из "double" в "float"
+C:\Users\Роман\Desktop\tg\tgbot\Calculate.cpp(13,26): warning C4305: =: усечение из "double" в "float"
+C:\Users\Роман\Desktop\tg\tgbot\Calculate.cpp(14,26): warning C4305: =: усечение из "double" в "float"
+C:\Users\Роман\Desktop\tg\tgbot\Calculate.cpp(15,26): warning C4305: =: усечение из "double" в "float"
+C:\Users\Роман\Desktop\tg\tgbot\Calculate.cpp(17,22): warning C4305: =: усечение из "double" в "float"
+C:\Users\Роман\Desktop\tg\tgbot\Calculate.cpp(22,72): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Роман\Desktop\tg\tgbot\Calculate.cpp(25,72): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  Calorie.cpp
+  tgbot.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+C:\Users\Роман\Desktop\tg\tgbot\tgbot.cpp(63,34): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\Роман\Desktop\tg\tgbot\tgbot.cpp(71,42): warning C4244: аргумент: преобразование "int64_t" в "int", возможна потеря данных
+C:\Users\Роман\Desktop\tg\tgbot\tgbot.cpp(89,112): warning C4244: аргумент: преобразование "int64_t" в "int", возможна потеря данных
+C:\Users\Роман\Desktop\tg\tgbot\tgbot.cpp(96,136): warning C4244: аргумент: преобразование "int64_t" в "int", возможна потеря данных
+C:\Users\Роман\Desktop\tg\tgbot\tgbot.cpp(103,141): warning C4244: аргумент: преобразование "int64_t" в "int", возможна потеря данных
+  work_with_DB.cpp
+D:\vcpkg\installed\x64-windows\include\SQLiteCpp\Exception.h(26,45): warning C4275: class "std::runtime_error", не являющийся dll-интерфейсом, использован в качестве базового для dll-интерфейса class "SQLite::Exception"
+D:\visual_studio\VC\Tools\MSVC\14.37.32822\include\stdexcept(101,19): message : см. объявление "std::runtime_error"
+D:\vcpkg\installed\x64-windows\include\SQLiteCpp\Exception.h(26,21): message : см. объявление "SQLite::Exception"
+D:\vcpkg\installed\x64-windows\include\SQLiteCpp\Statement.h(700,29): warning C4251: SQLite::Statement::mQuery: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "SQLite::Statement"
+D:\visual_studio\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+D:\vcpkg\installed\x64-windows\include\SQLiteCpp\Statement.h(702,29): warning C4251: SQLite::Statement::mpPreparedStatement: class "std::shared_ptr<sqlite3_stmt>" должен иметь dll-интерфейс для использования клиентами class "SQLite::Statement"
+D:\vcpkg\installed\x64-windows\include\SQLiteCpp\Statement.h(647,32): message : см. объявление "std::shared_ptr<sqlite3_stmt>"
+D:\vcpkg\installed\x64-windows\include\SQLiteCpp\Statement.h(708,41): warning C4251: SQLite::Statement::mColumnNames: class "std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>" должен иметь dll-интерфейс для использования клиентами class "SQLite::Statement"
+D:\vcpkg\installed\x64-windows\include\SQLiteCpp\Statement.h(708,18): message : см. объявление "std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>"
+D:\vcpkg\installed\x64-windows\include\SQLiteCpp\Column.h(231,33): warning C4251: SQLite::Column::mStmtPtr: class "std::shared_ptr<sqlite3_stmt>" должен иметь dll-интерфейс для использования клиентами class "SQLite::Column"
+D:\vcpkg\installed\x64-windows\include\SQLiteCpp\Statement.h(647,32): message : см. объявление "std::shared_ptr<sqlite3_stmt>"
+D:\vcpkg\installed\x64-windows\include\SQLiteCpp\Database.h(620,41): warning C4251: SQLite::Database::mSQLitePtr: class "std::unique_ptr<sqlite3,SQLite::Database::Deleter>" должен иметь dll-интерфейс для использования клиентами class "SQLite::Database"
+D:\vcpkg\installed\x64-windows\include\SQLiteCpp\Database.h(620,10): message : см. объявление "std::unique_ptr<sqlite3,SQLite::Database::Deleter>"
+D:\vcpkg\installed\x64-windows\include\SQLiteCpp\Database.h(621,41): warning C4251: SQLite::Database::mFilename: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "SQLite::Database"
+D:\visual_studio\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  Создание кода...
+C:\Users\Роман\Desktop\tg\tgbot\work_with_DB.cpp(134): warning C4715: GetDataForAllTime: значение возвращается не при всех путях выполнения
+C:\Users\Роман\Desktop\tg\tgbot\work_with_DB.cpp(79): warning C4715: GetDataForMonth: значение возвращается не при всех путях выполнения
+C:\Users\Роман\Desktop\tg\tgbot\work_with_DB.cpp(169): warning C4715: GetDataForToday: значение возвращается не при всех путях выполнения
+  tgbot.vcxproj -> C:\Users\Роман\Desktop\tg\tgbot\x64\Debug\tgbot.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
